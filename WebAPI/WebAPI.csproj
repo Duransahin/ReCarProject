@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Uploads\Images\20210325_182912.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220115_173003.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220306_190940.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220306_191001.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220307_191853.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220313_183845.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220313_183852.jpg" />
+    <None Include="wwwroot\Uploads\Images\20220313_183912.jpg" />
+    <None Include="wwwroot\Uploads\Images\44545.PNG" />
+    <None Include="wwwroot\Uploads\Images\Ekran Alıntısı.PNG" />
+    <None Include="wwwroot\Uploads\Images\wer.PNG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj" />
+  </ItemGroup>
+
+
+</Project>
